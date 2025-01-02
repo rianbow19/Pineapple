@@ -1,0 +1,25 @@
+body{
+    overflow: hidden;
+    padding: 0;
+    margin: 0;
+    background-color: #261f1b;
+}
+
+.container {
+    width: 100vw;
+    height: 100vh;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.appView {
+    display: block;
+    touch-action: none;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    user-select: none;
+}
